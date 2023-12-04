@@ -79,7 +79,7 @@ public class TestCargaDatos{
 	}
 	
 	@RepeatedTest(5)
-	//aqui revisa que se produzca la excepcion cuando hay un producto repetido, que en este caso es queso
+	//aqui revisa que se produzca la excepcion cuando hay un producto repetido, que en este caso es piña
 	public void testCargarDatosPiña() {
 		try {
 			restaurante = new Restaurante(1);
